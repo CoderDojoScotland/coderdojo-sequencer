@@ -4,10 +4,10 @@ A Sonic Pi music sequencer with conductive-paint, touch-sensitive control pads.
 
 The code and workshop were developed by [Jonathan Hogg](http://www.jonathanhogg.com/) for the CoderDojo Glasgow Science Centre Dojos on Saturday 30 Feb 2016.  This README is an expanded description of the workshop with added diagrams, etc.
 
-Here's a link to a [short video](https://www.facebook.com/CoderdojoScotland/videos/vb.209977582476439/683765638430962/?type=2&theater&notif_t=like)
- of the workshop on the day.
+Here's a link to a [short video](https://www.facebook.com/CoderdojoScotland/videos/vb.209977582476439/683765638430962/?type=2&theater&notif_t=like) of the workshop on the day.
 
-##Licence
+## Licence
+
 This work is licensed under the following [License](./LICENSE)
 
 # Equipment
@@ -27,17 +27,19 @@ For the Bare Conductive touch pads
 
 
 For the Disco Light
-* Jonathan made some custom hardware to drive a DMX light from a USB output, so the code here won't be any use without it.  You could, however, write some code yourself to drive an off-the shelf DMX light.  
+* Jonathan made some custom hardware to drive a DMX light from a USB output, so the code here won't be any use without it. You could, however, write some code yourself to drive an off-the shelf DMX light.
 
 
 # Instructions
 
-##Control Pad
+## Control Pad
+
 We're going to start by making the Control Pad for our sequencer - mainly because it's going to take a while for the paint to dry.
 
 [Control Pad Instructions](./ControlPad.md)
 
-#Sequencer
+# Sequencer
+
 ### What is a Sequencer?
 
 The loop pedal that musicians like KT Tunstall and Ed Sheeran use is essentially a sequencer.  It plays a loop of sounds that you can add to while it's playing:
@@ -64,7 +66,8 @@ The Touch Board uses capacitative touch, a method that uses the electrical condu
 
 [Additional features you could add](./Extras.md)
 
-## Authors 
+## Authors
+ 
 [Jonathan Hogg](http://www.jonathanhogg.com/) <br/>
 [Claire Quigley](https://github.com/alcluith) <br/>
 

@@ -1,10 +1,11 @@
 
 import serial
 import sonic
+import glob
 
 
 sonic_pi = sonic.SonicPi()
-connection = serial.Serial('/dev/tty.usbmodem1421', 115200)
+connection = serial.Serial(glob.glob('/dev/tty.usbmodem*')[0], 115200)
 
 while True:
     line = connection.readline()
